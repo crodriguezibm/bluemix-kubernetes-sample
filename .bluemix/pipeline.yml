@@ -33,6 +33,12 @@ stages:
   - name: CLUSTER_NAME
     type: text
     value: Kate
+  - name: BLUEMIX_API_KEY
+    type: secure
+  - name: BLUEMIX_ORG
+    type: text
+  - name: BLUEMIX_SPACE
+    type: text
   jobs:
   - name: Deploy
     type: deployer
