@@ -39,6 +39,8 @@ stages:
     type: text
   - name: BLUEMIX_SPACE
     type: text
+  - name: BLUEMIX_API_URL
+    type: text
   jobs:
   - name: Deploy
     type: deployer
