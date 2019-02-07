@@ -23,6 +23,7 @@ stages:
     dir_name: null
   triggers:
   - type: stage
+    enabled: false
   properties:
   - name: BLUEMIX_USER
     type: text
